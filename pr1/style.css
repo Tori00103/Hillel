@@ -1,0 +1,102 @@
+/*розділи та загальне вирівнювання*/
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding-inline: 80px;
+    padding-block: 20px;
+    gap: 50px;
+    background-color: rgb(125, 170, 133);
+}
+
+main {
+    display: grid;
+    justify-items: center;
+    justify-self: center;
+    width: 1000px;
+    margin: 10px;
+}
+
+.page_links {
+    display: flex;
+}
+
+/*елементи сторінки*/
+p {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+main a {
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+    color: rgb(2, 13, 163);
+    background-color: rgb(111, 210, 223);
+    border-radius: 10px;
+
+}
+
+h1,
+h2 {
+    font-family: sans-serif;
+    color: rgb(10, 19, 97);
+    margin: 5px;
+}
+
+button {
+    background-color: rgb(252, 169, 194);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(255, 129, 167);
+    width: 105px;
+    height: 50px;
+}
+
+button:active {
+    background-color: rgb(255, 65, 122);
+    width: 95px;
+    height: 50px;
+}
+
+img {
+    width: auto;
+    height: 500px;
+}
+
+.comment {
+    margin: 10px;
+    font-size: 16px;
+}
+
+span {
+    font-weight: 600;
+}
+
+.girl {
+    color: palevioletred;
+}
+
+.boy {
+    color: rgb(147, 147, 255);
+}
