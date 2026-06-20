@@ -1,23 +1,57 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# This is a comment. Git ignores lines starting with '#'
+
+# -------------------------------------------------------------
+# OS & System Files (Never track system-specific garbage)
+# -------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------ss----------------------------------
+# IDEs and Text Editors (Keeps your personal editor configs out)
+# -------------------------------------------------------------
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+*.suo
+*.ntvs*
+
+# -------------------------------------------------------------
+# Dependencies (Don't track external packages; fetch them via package manager)
+# -------------------------------------------------------------
+node_modules/
+/jspm_packages/
+.venv/
+env/
+
+# -------------------------------------------------------------
+# Build Artifacts & Output (Ignore compiled binaries and dist folders)
+# -------------------------------------------------------------
+dist/
+build/
+out/
+*.exe
+*.dll
+*.class
+
+# -------------------------------------------------------------
+# Logs, Caches, & Runtime Data
+# -------------------------------------------------------------
+*.log
+npm-debug.log*
+.eslintcache
+.sass-cache/
+
+# -------------------------------------------------------------
+# Security & Credentials (CRITICAL: Never commit secrets!)
+# -------------------------------------------------------------
+.env
+*.pem
+*.key
+credentials.json
+
+# -------------------------------------------------------------
+# Exceptions (The '!' sign negates a previous rule)
+# -------------------------------------------------------------
+# Ignore all .config files...
+*.config
+# ...but explicitly track this specific one anyway
+!important.config
