@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login|Register</title>
+</head>
+
+<body>
+    <form action="#">
+        <h1><span class="login">Login</span><span class="line">|</span><span class="register">Register</span></h1>
+        <p>Enter your email and password to register.</p>
+
+        <input type="text" name="username" placeholder="Username" autofocus minlength="4" maxlength="20">
+        <input type="email" name="email" placeholder="Enter your email address">
+        <div class="password-field">
+            <input type="password" name="password" id="password" placeholder="Password" minlength="8" maxlength="20">
+            <img src="./img/Hide.png" alt="Show Password" class="eye-icon" id="togglePassword">
+        </div>
+        <div class="password-field">
+            <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
+        </div>
+
+        <button type="submit">Register</button>
+
+        <p>Or register with</p>
+        <a href="account/google"><img src="./img/google.png" alt="Google">Continue withGoogle</a>
+        <a href="account/facebook"><img src="./img/faceb.png" alt="Facebook">Continue with Facebook</a>
+        <div class="bottomline"></div>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
