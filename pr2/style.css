@@ -1,0 +1,103 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 656px;
+    margin: 0 auto;
+    border: 1px solid #64646463;
+    border-radius: 16px;
+    font-family: 'Cera Pro', sans-serif;
+    text-align: center;
+    color: #3D3D3D;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+h1 {
+    padding: 52px 0 40px 0;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    width: 272px;
+    height: 40px;
+    margin: 8px;
+    font-size: 14px;
+    padding-inline: 14px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    color: #3D3D3D;
+}
+
+button {
+    margin: 33px 0 36px 0;
+    width: 308px;
+    height: 45px;
+    color: #EAEAEA;
+    font-weight: 700;
+    background-color: #46A358;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+a {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 1px solid #64646463;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #727272;
+}
+
+.bottomline {
+    margin-top: auto;
+    background-color: #46A358;
+    height: 10px;
+    width: 100%;
+    border-radius: 0 0 16px 16px;
+}
+
+.login {
+    font-weight: 550;
+    letter-spacing: 0.5px;
+}
+
+.register {
+    font-weight: 550;
+    color: #46A358;
+    letter-spacing: 0.5px;
+}
+
+.line {
+    font-weight: 400;
+    font-size: 14px;
+    color: #3D3D3D;
+    margin: 10px;
+}
+
+.eye-icon {
+    position: absolute;
+    cursor: pointer;
+    top: 280px;
+    right: calc(50% - 130px);
+}
+
+.eye-icon:active {
+    scale: 1.2;
+}
